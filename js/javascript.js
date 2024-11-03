@@ -32,8 +32,8 @@ window.addEventListener("scroll", () => {
 
 //go back
 
-<script>
-  document.getElementById("home").addEventListener("click", function() {
-    window.history.back();
-  });
-</script>
+// <script>
+//   document.getElementById("home").addEventListener("click", function() {
+//     window.history.back();
+//   });
+// </script>
