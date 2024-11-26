@@ -27,8 +27,9 @@ scroll-behavior: smooth;
 .carousel-caption p {
 	width: 60%;
 	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
+	font-size: 15px;
+	line-height: 1;
+  text-align: center;
 }
 .carousel-inner:before {
 	content: '';
@@ -48,11 +49,16 @@ scroll-behavior: smooth;
 /* navbar styling */
 
 .navbar-brand .text {
-  font-family: 'Bauhaus 93', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  font-family: 'Segoe UI Black', 'Chalkboard SE', 'Comic Neue', sans-serif;
   font-weight: 400;
   font-style: bold;
   font-size: larger;
   color: #FFFFFF;
+  text-align: center;
+}
+
+.navbar .navbar-brand .img{
+ size: 80px;
 }
 
 .btn-secondary{
@@ -121,7 +127,7 @@ scroll-behavior: smooth;
 	height: 100vh;
 }
 .navbar-toggler {
-	padding: 1px 5px;
+	padding: 1px 2px;
 	font-size: 18px;
 	line-height: 0.3;
 	background: #fff;
@@ -167,6 +173,10 @@ scroll-behavior: smooth;
 }
 .team .card-body i {
 	font-size: 20px;
+}
+
+.team .card-body .card-title{
+  font-size: 25px;
 }
 
 /* Contact section start */
@@ -594,6 +604,8 @@ button {
     opacity: 0.2;
   }
   
+/* Contact resonsive */
+
   @media (max-width: 850px) {
     .form {
       grid-template-columns: 1fr;
