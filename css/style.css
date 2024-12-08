@@ -9,6 +9,7 @@ scroll-behavior: smooth;
 
 .section-padding {
 	padding: 100px 0;
+  box-sizing: border-box;
 }
 .carousel-item {
 	height: 100vh;
@@ -646,7 +647,7 @@ button {
   
   @media (max-width: 480px) {
     .container {
-      padding: 1.5rem;
+      padding: 0.1rem;
     }
   
     .contact-info:before {
@@ -801,6 +802,13 @@ footer .social-content a:hover .fa-whatsapp{
   opacity:1;
   box-shadow: 0 0 10px 5px rgba(14, 13, 13, 0.2);
   color: #FFFFFF;
+}
+
+
+@media only screen and ( max-width: 480px ) {
+  .navbar-brand .text{font-size: 10px;}
+  .container .navbar-brand img{width: 50px; height: 50px;}
+  .fixed-top{position: sticky;}
 }
 
 /* back to top end*/
